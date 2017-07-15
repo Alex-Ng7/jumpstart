@@ -9,11 +9,13 @@
     <!--four css for this project-->
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>-->
+    <link rel="stylesheet" href="./resources/css/slick.css">
     <link rel="stylesheet" href="./resources/css/style.css"/>
     <!--three javascript files-->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!--<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> for some reason slick cdn isn't working for css or js so i have to do it locally-->
+    <script type="text/javascript" src="./resources/js/slick.min.js"></script>
     <script type="text/javascript" src="./resources/js/main.js"></script>
     </head>
   <body>
@@ -52,10 +54,9 @@
       <h1>GET STARTED.</h1>
       <p>What are you waiting for? Today's the day for your next big idea.</p>
     </div>
-
+  </div>
   <div class="relative-wrapper">
         <a href="#" class="btn btn-primary btn-lg cta">Jump in!</a>
-      </div>
   </div>
     <!--featured project-->
     <div class="container-fluid featured-project">
@@ -106,7 +107,7 @@
       </div>
       <!--row of content-->
       <div class="row">
-        <div class="col-md-4 col-xs-12">
+        <div class="project-content col-md-4 col-xs-12">
           <div class="image-container">
             <img src="./resources/images/project1.png" alt="project 1">
           </div>
@@ -114,7 +115,7 @@
           <p>by Riley Mae</p>
           <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="project-content col-md-4 col-xs-12">
           <div class="image-container">
             <img src="./resources/images/project2.png" alt="project 2">
           </div>
@@ -122,7 +123,7 @@
           <p>by Brian McDonald</p>
           <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
         </div>
-        <div class="col-md-4 col-xs-12">
+        <div class="project-content col-md-4 col-xs-12">
           <div class="image-container">
             <img src="./resources/images/project3.png" alt="project 3">
           </div>
@@ -133,7 +134,7 @@
       </div>
     </div>
     <!--help section-->
-    <div class="container-fluid help">
+    <div class="container help">
       <strong>Having trouble thinking of an idea?</strong>
       <p>Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
       <a href="#" class="btn btn-primary btn-md">Learn more</a>
