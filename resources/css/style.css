@@ -48,6 +48,7 @@ img.navbar-brand.navbar-right{
   text-align: center;
   background-repeat: no-repeat;
   padding-top: 10rem;
+  background-position: center;
 }
 
 .jumbotron h1{
@@ -150,15 +151,65 @@ img.navbar-brand.navbar-right{
     width: 1170px;
   }
 }
-
 @media (min-width:1024px){
   .projects,
   .featured-project{
     width: 970px;
   }
+}
 
-@media (min-width:425px){
+@media (min-width:768px){
+  .jumbotron h1{
+    font-size: 7rem;
+  }
+
+  h2{
+    padding: 2rem 0;
+  }
+
+  .projects .project-content{
+    padding-bottom: 5rem;
+  }
+
+  .container-fluid{
+    width: 90%;
+  }
+
+}
+
+@media (max-width:425px){
   img.navbar-brand.navbar-right{
     display: none;
   }
+
+  .navbar-default .navbar-nav{
+    text-align: center;
+  }
+
+  .jumbotron{
+      height: 80rem;
+  }
+
+  .jumbotron h1{
+    padding-top: 9rem;
+    font-size: 6.6rem;
+  }
+
+  .jumbotron p{
+    padding-top: 10%;
+  }
+
+  h2{
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .relative-wrapper{
+    top: -23rem;
+  }
+
+  .container-fluid{
+    width: 90%;
+  }
+
 }
