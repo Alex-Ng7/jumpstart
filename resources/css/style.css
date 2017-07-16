@@ -122,6 +122,7 @@ img.navbar-brand.navbar-right{
   background-color: #f3f3f3;
   padding: 6rem 0;
   text-align: center;
+  width: 100%;
 }
 
 .help strong{
