@@ -56,6 +56,11 @@ img.navbar-brand.navbar-right{
   font-size: 9.5rem;
 }
 
+.jumbotron p{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .jumbotron-bike{
   background-image: url("../images/jumbotron-bike.jpg");
 }
@@ -179,10 +184,6 @@ img.navbar-brand.navbar-right{
 }
 
 @media (max-width:425px){
-  .carousel{
-    top: 10rem;
-  }
-
   img.navbar-brand.navbar-right{
     display: none;
   }
@@ -210,11 +211,35 @@ img.navbar-brand.navbar-right{
   }
 
   .relative-wrapper{
-    top: -15rem;
+    top: -23rem;
   }
 
   .container-fluid{
     width: 90%;
   }
 
+  .projects .project-content{
+    padding-bottom: 5rem;
+  }
+
+  .help strong,
+  .help p{
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px){
+  .jumbotron h1{
+    font-size: 5.9rem;
+  }
+}
+
+@media (max-width: 320px){
+  .jumbotron h1{
+    font-size: 5rem;
+  }
+
+  .help strong{
+    font-size: 2.5rem;
+  }
 }
