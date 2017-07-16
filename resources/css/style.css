@@ -179,6 +179,10 @@ img.navbar-brand.navbar-right{
 }
 
 @media (max-width:425px){
+  .carousel{
+    top: 10rem;
+  }
+
   img.navbar-brand.navbar-right{
     display: none;
   }
@@ -206,7 +210,7 @@ img.navbar-brand.navbar-right{
   }
 
   .relative-wrapper{
-    top: -23rem;
+    top: -15rem;
   }
 
   .container-fluid{
